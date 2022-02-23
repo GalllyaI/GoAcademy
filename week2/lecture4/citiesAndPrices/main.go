@@ -43,9 +43,9 @@ func groupSlices(cities []string, prices []int) map[string][]int {
 
 func main() {
 
-	// cities, prices := citiesAndPrices()
-	cities := []string{"Berlin", "Moscow", "Chicago", "Tokyo", "London", "Berlin", "Moscow", "Chicago", "Tokyo", "London", "Berlin", "Moscow", "Chicago"}
-	prices := []int{1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 11, 22, 33}
+	cities, prices := citiesAndPrices()
+	// cities := []string{"Berlin", "Moscow", "Chicago", "Tokyo", "London", "Berlin", "Moscow", "Chicago", "Tokyo", "London", "Berlin", "Moscow", "Chicago"}
+	// prices := []int{1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 11, 22, 33}
 	output := groupSlices(cities, prices)
 
 	fmt.Println(output)
