@@ -48,5 +48,7 @@ func main() {
 	// prices := []int{1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 11, 22, 33}
 	output := groupSlices(cities, prices)
 
+	// just some change to add to git
+
 	fmt.Println(output)
 }
